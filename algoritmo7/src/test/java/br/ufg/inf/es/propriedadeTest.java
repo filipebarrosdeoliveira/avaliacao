@@ -6,15 +6,8 @@ import org.junit.Assert;
 
 public class propriedadeTest {
 
-    @Test (expected = IllegalArgumentException.class)
-    public void testMenorInvalido() throws Exception {
-        propriedade.Propriedade(-20);
-    }
 
-    @Test (expected = IllegalArgumentException.class)
-    public void testMaiorInvalido() throws Exception {
-        propriedade.Propriedade(20);
-    }
+
 
     @Test
     public void testFalsos() throws Exception {
