@@ -5,29 +5,26 @@ package br.ufg.inf.es;
  */
 public class array {
 
-    /**
-     * inverte um array de caracteres;
-     * @param S array a ser invertido;
-     * @return S em ordem inversa;
+   /**
+     * imprime array de caracteres;
+     * @param A array a ser impresso;
+     * @param n limite do array;
+     * @throws IllegalArgumentException caso:
+     * n seja menor que 0;
+     * n seja maior que o tamanho total do array;
      */
-    public static char[] inverte(char[] S){
-        if (S.length == 1){
-            return S;
+    public static void imprime(char [] A, int n){
+        if (n > A.length){
+            throw new IllegalArgumentException("Tamanho de vetor Invalido");
+        }
+        if (n < 0){
+            throw new IllegalArgumentException("Parâmetro Invalido");
         }
 
-        char[] Sa = new char[S.length];         // Array auxiliar de saída;
-        char[] Sl = new char[S.length - 1];     /* Array que recebe o resto do
-                                                   primeiro vetor */
-        char[] c = new char[1]; // recebe o último elemento do array principal;
-        c[0] = S[S.length - 1];
-
-        for (int n = 0; n < S.length - 1; n ++){
-            Sl[n] = S[n];
+        int i = 0;
+        while (i < n){
+            System.out.print(" "+ A[i]);
+            i = i + 1;
         }
-
-        System.arraycopy(c, 0, Sa, 0, 1);
-        System.arraycopy(inverte(Sl), 0, Sa, 1, S.length - 1);
-
-        return Sa;
     }
 }
