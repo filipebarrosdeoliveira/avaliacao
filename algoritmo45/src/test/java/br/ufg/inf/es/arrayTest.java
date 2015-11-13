@@ -8,12 +8,9 @@ import static org.junit.Assert.*;
 public class arrayTest {
 
     @Test
-    public void testInverteArrayUmaLetra() throws Exception {
-        char[] si = {'a'};
-        char[] so = {'a'};
-        char[] sa = array.inverte(si);
-        assertEquals(so[0], sa[0]);
+    public void testImprime() throws Exception {
+        char[] A = {'5', '7', 'B', '6', '8', 'J', 'S', '4'};
+        array.inverte(A, 8);
     }
-
 
 }
