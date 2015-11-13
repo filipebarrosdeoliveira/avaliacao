@@ -12,10 +12,10 @@
 
     <modules>
 		<module>algoritmo01</module>
-		<module>algoritmo2</module>
+		<module>Algoritmo2</module>
 		<module>algoritmo03</module>
-		<module>algoritmo4</module>
-		<module>algoritmo5</module>
+		<module>Algoritmo4</module>
+		<module>agoritmo5</module>
 		<module>algoritmo6</module>
 		<module>algoritmo7</module>
 		<module>algoritmo8</module>
@@ -30,7 +30,7 @@
 		<module>algoritmo17</module>
 		<module>algoritmo18</module>
 		<module>algoritmo19</module>
-		<module>algoritmo20</module>
+		<module>Algoritmo20</module>
 		<module>algoritmo21</module>
 		<module>algoritmo27</module>
 		<module>algoritmo23</module>
@@ -48,7 +48,7 @@
 		<module>algoritmo35</module>
 		<module>algoritmo36</module>
 		<module>algoritmo37</module>
-		<module>algoritmo38</module>
+		<module>Algoritmo38</module>
 		<module>algoritmo40</module>
 		<module>algoritmo39</module>
 		<module>algoritmo41</module>
